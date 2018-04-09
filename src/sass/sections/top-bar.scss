@@ -1,0 +1,55 @@
+.top-bar {
+  @include wrapper();
+  position: relative;
+  height: 100px;
+}
+
+.logo {
+  display: inline-block;
+  @include center-y();
+
+  &__icon {
+    width: 112px;
+    height: 63px;
+    fill: $color-brand-light;
+  }
+
+  &__text {
+    font-family: $ff-main-bold;
+    color: #000000;
+    font-size: rem(45px);
+    @include center-y();  
+  }
+
+  &__link {
+    display: inline-block;
+  }
+}
+
+.info {
+  @include center-y();
+  display: inline-block;
+  margin-left: 457px;
+
+  &__item {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  &__icon {
+    width: 41px;
+    height: 41px;
+    fill: $color-brand-light;
+  }
+
+  &__discription {
+    display: inline-block;
+    margin-left: 7px;
+  }
+
+  &__important {
+    font-family: $ff-main-bold;
+    margin-bottom: 8px;
+  }
+}
+
