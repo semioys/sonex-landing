@@ -16,7 +16,7 @@
 
   &__text {
     font-family: $ff-main-bold;
-    color: #000000;
+    color: $color-dark;
     font-size: rem(45px);
     @include center-y();  
   }
@@ -45,6 +45,7 @@
   &__discription {
     display: inline-block;
     margin-left: 7px;
+    color: $color-dark;    
   }
 
   &__important {

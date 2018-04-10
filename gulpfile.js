@@ -14,7 +14,8 @@ gulp.task('server', function() {
 
 gulp.task('js', function() {
   return gulp.src([
-    './src/js/main.js'
+    './src/js/main.js',
+    './src/js/navigation.js'
   ])
     .pipe(plugins.sourcemaps.init())
     .pipe(plugins.concat('main.min.js'))
